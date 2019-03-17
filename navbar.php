@@ -17,33 +17,23 @@
 <body>
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Myfile</a>
+            <a class="nav-link" href="myfiles.php">Myfile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Account</a>
+            <a class="nav-link" href="accounts.php">Account</a>
           </li>
           <li class="nav-item" id="signup">
-            <a href="signup.html" class="nav-link">signup</a>
+            <a href="signup.php" class="nav-link">signup</a>
+          </li>
+          <li class="nav-item" id="login">
+            <a href="login.php" class="nav-link">Login</a>
           </li>
         </ul>
       </nav>
-      <div class="container">
-          <div class="row" >
-              <h3 class="content">
-                  about us 
-              </h3>
-          </div>
-          <div class="row">
-                <p>
-                we have build a portal in order to help you run and upload all your python files and see the desired output !!!
-                hope this portal helps you</p>
-          </div>
-          
-      </div>
       <div class="footer bg-primary">
         <div class= "footer-icons">
             <h5 class="footer-heading">Follow us on</h5>
