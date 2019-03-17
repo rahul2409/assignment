@@ -22,14 +22,14 @@
         <p>
         we have build a portal in order to help you run and upload all your python files and see the desired output !!!
         hope this portal helps you</p>
-        <form action="">
-            <div class="form-group">
-              <label for="file-upload">Upload python files here</label>
-              <input type="file" class="form-control" id="file-upload">
-            </div>
+        <form action="file.php" method="POST" enctype="multipart/form-data">
+            <label for="file-upload">Upload python files here</label>
+            <input type="file" class="form-control" id="file-upload" name='file'>
             <input type="submit" class='btn btn-success' value='Submit' name ='submit'>
         </form>
-  </div>        
   </div>
+  <div class="row" id ='output'></div>        
+  </div>
+  
 </body>
 </html>
